@@ -1,0 +1,151 @@
+body {
+  background-color: #080036;
+  color: white;
+}
+
+@font-face {
+  font-family: glitch_font;
+  src: url(fonts/HackbotFreeTrial.ttf);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#quantum {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#spinning-rat {
+  position: absolute;
+  z-index: 5;
+}
+
+#abstract {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  text-align: center;
+}
+
+#abstract p {
+  font-family: sans-serif;
+}
+
+#intro {
+  font-family: glitch_font;
+  font-size: 2em;
+  color:rgb(85, 177, 60);
+}
+
+#menu-buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  justify-content: space-between;
+}
+
+.menu-button {
+  text-align: center;
+  font-family: glitch_font;
+  font-size: 1.5em;
+  color: rgb(85, 177, 60);
+}
+
+/********* What is Cuantum Computing **************/
+
+#what-is-quantum-intro {
+  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*padding: 0 10%;*/
+  width: 100%;
+  text-align: center;
+  font-family: glitch_font;
+  font-size: 2em;
+  color:rgb(85, 177, 60);
+}
+
+#quantum-description h1 span {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#quantum-description {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10%;
+}
+
+#quantum-description img {
+  margin-top: 2em;
+}
+
+/********** Animal Research Simulations *****************/
+
+#animal-research-simulations {
+  box-sizing: border-box;
+  display: flex;
+  padding: 5% 0 0 5%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  font-family: glitch_font;
+  font-size: 1.5em;
+  color:rgb(85, 177, 60);
+}
+
+#animal-research-description {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10%;
+}
+
+#science-gone-too-far {
+  box-sizing: border-box;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  font-family: glitch_font;
+  font-size: 1.5em;
+  color:rgb(85, 177, 60);
+}
+
+#science-gone-far-description {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10%;
+}
